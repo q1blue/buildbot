@@ -848,7 +848,8 @@ class ShellMixin:
             if arg in prohibitArgs:
                 bad(arg)
             else:
-                setattr(self, arg, constructorArgs[arg])
+                if not (arg == 'command' and constructorArgs[arg] is None):
+                    setattr(self, arg, constructorArgs[arg])
             del constructorArgs[arg]
         for arg in list(constructorArgs):
             if arg not in BuildStep.parms:

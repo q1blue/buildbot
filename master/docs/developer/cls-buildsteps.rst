@@ -612,6 +612,7 @@ This class can only be used in new-style steps.
 
         This method is intended to be called from the shell constructor, passed any keyword arguments not otherwise used by the step.
         Any attributes set on the instance already (e.g., class-level attributes) are used as defaults.
+        If ``constructorArgs`` contains ``command`` key whose value is ``None``, then it is ignored.
         Attributes named in ``prohibitArgs`` are rejected with a configuration error.
 
         The return value should be passed to the :py:class:`BuildStep` constructor.

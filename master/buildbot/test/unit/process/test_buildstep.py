@@ -1240,3 +1240,16 @@ class TestShellMixin(steps.BuildStepMixin,
         self.setupStep(SimpleShellCommand(command=['a', ['b', 'c']]))
         self.step.results = SUCCESS
         self.assertEqual(self.step.getResultSummary(), {'step': "'a b ...'"})
+
+    @defer.inlineCallbacks
+    def test_None_command_is_not_overridden(self):
+        class MySubclass(SimpleShellCommand):
+            command = ['command']
+
+        self.setupStep(MySubclass(command=None))
+        self.expectCommands(
+            ExpectShell(workdir='wkdir', command=['command']) +
+            0,
+        )
+        self.expectOutcome(result=SUCCESS)
+        yield self.runStep()

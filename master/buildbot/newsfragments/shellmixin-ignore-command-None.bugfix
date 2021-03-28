@@ -1,0 +1,2 @@
+``ShellMixin`` will now ignore ``command=None`` passed to ``setupShellMixin()``.
+This matches how the old-style ``ShellCommand`` worked and makes migration to new-style steps less error-prone.

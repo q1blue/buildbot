@@ -52,6 +52,10 @@ matrix:
       env: TWISTED=latest SQLALCHEMY=latest TESTS=ci/coverage
     - python: "3.9"
       env: TWISTED=latest SQLALCHEMY=latest TESTS=trial
+    - python: "3.10"
+      env: TWISTED=latest SQLALCHEMY=latest TESTS=trial
+    - python: "3.11"
+      env: TWISTED=latest SQLALCHEMY=latest TESTS=trial
 
     - python: "3.9"
       env: TWISTED=latest SQLALCHEMY=latest TESTS=minimal_install

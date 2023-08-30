@@ -1,0 +1,47 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - guanlecoja > gulp-less > less > request > hawk:
+        patched: '2023-08-30T16:39:23.593Z'
+        id: 'npm:hawk:20160119'
+        path: guanlecoja > gulp-less > less > request > hawk
+    - guanlecoja > gulp-bower-deps > bower > request > hawk:
+        patched: '2023-08-30T16:39:23.593Z'
+        id: 'npm:hawk:20160119'
+        path: guanlecoja > gulp-bower-deps > bower > request > hawk
+  'npm:http-signature:20150122':
+    - guanlecoja > gulp-bower-deps > bower > request > http-signature:
+        patched: '2023-08-30T16:39:23.593Z'
+        id: 'npm:http-signature:20150122'
+        path: guanlecoja > gulp-bower-deps > bower > request > http-signature
+    - guanlecoja > gulp-less > less > request > http-signature:
+        patched: '2023-08-30T16:39:23.593Z'
+        id: 'npm:http-signature:20150122'
+        path: guanlecoja > gulp-less > less > request > http-signature
+  'npm:mime:20170907':
+    - guanlecoja > gulp-less > less > mime:
+        patched: '2023-08-30T16:39:23.593Z'
+        id: 'npm:mime:20170907'
+        path: guanlecoja > gulp-less > less > mime
+  'npm:request:20160119':
+    - guanlecoja > gulp-less > less > request:
+        patched: '2023-08-30T16:39:23.593Z'
+        id: 'npm:request:20160119'
+        path: guanlecoja > gulp-less > less > request
+  'npm:tunnel-agent:20170305':
+    - guanlecoja > gulp-bower-deps > bower > request > tunnel-agent:
+        patched: '2023-08-30T16:39:23.593Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: guanlecoja > gulp-bower-deps > bower > request > tunnel-agent
+    - guanlecoja > gulp-less > less > request > tunnel-agent:
+        patched: '2023-08-30T16:39:23.593Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: guanlecoja > gulp-less > less > request > tunnel-agent
+  'npm:uglify-js:20151024':
+    - guanlecoja > gulp-bower-deps > bower > handlebars > uglify-js:
+        patched: '2023-08-30T16:39:23.593Z'
+        id: 'npm:uglify-js:20151024'
+        path: guanlecoja > gulp-bower-deps > bower > handlebars > uglify-js

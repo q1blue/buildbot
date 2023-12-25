@@ -1,11 +1,17 @@
 {
-    "name": "buildbot-nestedexample",
-    "engines": {
-        "node": ">=0.10.0",
-        "npm": ">=1.4.0"
-    },
-    "dependencies": {
-        "guanlecoja": "~1.1.0",
-        "gulp": "3.9.0"
-    }
+  "name": "buildbot-nestedexample",
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.4.0"
+  },
+  "dependencies": {
+    "guanlecoja": "~1.1.0",
+    "gulp": "3.9.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }

@@ -37,7 +37,7 @@ graphql-core==3.2.1
 greenlet==1.1.2
 hvac==0.10.11
 hyperlink==21.0.0
-idna==2.10  # pyup: ignore (conflicts with moto on master)
+idna==3.7  # pyup: ignore (conflicts with moto on master)
 imagesize==1.3.0
 incremental==21.3.0
 ipaddress==1.0.23

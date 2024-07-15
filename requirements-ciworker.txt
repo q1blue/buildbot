@@ -27,3 +27,4 @@ typing-extensions==4.2.0;  python_version >= "3.7"
 typing-extensions==3.10.0.2;  python_version < "3.7" and python_version >= "3.5"
 zope.interface==5.4.0
 -e worker
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability

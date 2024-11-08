@@ -5,7 +5,7 @@
     "main": "index.js",
     "dependencies": {
         "jasmine-spec-reporter": "^4.2.1",
-        "protractor": "^5.4.2",
+        "protractor": "^7.0.0",
         "request": "^2.88.0",
         "ts-node": "~4.1.0",
         "tslint": "~5.9.1",

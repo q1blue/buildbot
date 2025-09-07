@@ -1,3 +1,4 @@
 psycopg2-binary==2.9.3
 mysqlclient==2.1.0
 pg8000==1.26.1
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability

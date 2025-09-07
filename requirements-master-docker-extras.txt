@@ -2,3 +2,4 @@ requests==2.27.1
 psycopg2==2.9.3
 txrequests==0.9.6
 pycairo==1.21.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability

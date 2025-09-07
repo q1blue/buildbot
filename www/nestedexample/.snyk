@@ -1,0 +1,233 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - guanlecoja > serve-static > send > debug:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:debug:20170905'
+        path: guanlecoja > serve-static > send > debug
+    - guanlecoja > gulp-livereload > mini-lr > body-parser > debug:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:debug:20170905'
+        path: guanlecoja > gulp-livereload > mini-lr > body-parser > debug
+    - guanlecoja > karma > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          guanlecoja > karma > socket.io > socket.io-adapter > socket.io-parser
+          > debug
+    - guanlecoja > karma > socket.io > debug:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:debug:20170905'
+        path: guanlecoja > karma > socket.io > debug
+    - guanlecoja > karma > socket.io > engine.io > debug:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:debug:20170905'
+        path: guanlecoja > karma > socket.io > engine.io > debug
+    - guanlecoja > karma > socket.io > socket.io-adapter > debug:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:debug:20170905'
+        path: guanlecoja > karma > socket.io > socket.io-adapter > debug
+    - guanlecoja > karma > socket.io > socket.io-client > debug:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:debug:20170905'
+        path: guanlecoja > karma > socket.io > socket.io-client > debug
+    - guanlecoja > karma > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          guanlecoja > karma > socket.io > socket.io-client > engine.io-client >
+          debug
+  'npm:hawk:20160119':
+    - guanlecoja > gulp-less > less > request > hawk:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:hawk:20160119'
+        path: guanlecoja > gulp-less > less > request > hawk
+    - guanlecoja > gulp-bower-deps > bower > bower-registry-client > request > hawk:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:hawk:20160119'
+        path: >-
+          guanlecoja > gulp-bower-deps > bower > bower-registry-client > request
+          > hawk
+    - guanlecoja > gulp-bower-deps > bower > request > hawk:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:hawk:20160119'
+        path: guanlecoja > gulp-bower-deps > bower > request > hawk
+    - guanlecoja > gulp-bower-deps > bower > insight > request > hawk:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:hawk:20160119'
+        path: guanlecoja > gulp-bower-deps > bower > insight > request > hawk
+  'npm:http-signature:20150122':
+    - guanlecoja > gulp-bower-deps > bower > request > http-signature:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:http-signature:20150122'
+        path: guanlecoja > gulp-bower-deps > bower > request > http-signature
+    - guanlecoja > gulp-less > less > request > http-signature:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:http-signature:20150122'
+        path: guanlecoja > gulp-less > less > request > http-signature
+    - guanlecoja > gulp-bower-deps > bower > bower-registry-client > request > http-signature:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:http-signature:20150122'
+        path: >-
+          guanlecoja > gulp-bower-deps > bower > bower-registry-client > request
+          > http-signature
+    - guanlecoja > gulp-bower-deps > bower > insight > request > http-signature:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:http-signature:20150122'
+        path: >-
+          guanlecoja > gulp-bower-deps > bower > insight > request >
+          http-signature
+  'npm:lodash:20180130':
+    - guanlecoja > lodash:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:lodash:20180130'
+        path: guanlecoja > lodash
+    - guanlecoja > karma > lodash:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:lodash:20180130'
+        path: guanlecoja > karma > lodash
+  'npm:mime:20170907':
+    - guanlecoja > gulp-less > less > mime:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:mime:20170907'
+        path: guanlecoja > gulp-less > less > mime
+    - guanlecoja > gulp-bower-deps > bower > request > mime:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:mime:20170907'
+        path: guanlecoja > gulp-bower-deps > bower > request > mime
+    - guanlecoja > gulp-bower-deps > bower > insight > request > mime:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:mime:20170907'
+        path: guanlecoja > gulp-bower-deps > bower > insight > request > mime
+    - guanlecoja > gulp-bower-deps > bower > insight > request > form-data > mime:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:mime:20170907'
+        path: >-
+          guanlecoja > gulp-bower-deps > bower > insight > request > form-data >
+          mime
+    - guanlecoja > serve-static > send > mime:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:mime:20170907'
+        path: guanlecoja > serve-static > send > mime
+  'npm:minimatch:20160620':
+    - guanlecoja > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:minimatch:20160620'
+        path: guanlecoja > gulp > vinyl-fs > glob-stream > minimatch
+    - guanlecoja > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:minimatch:20160620'
+        path: guanlecoja > gulp > vinyl-fs > glob-stream > glob > minimatch
+    - guanlecoja > gulp-fixtures2js > fixtures2js > minimatch:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:minimatch:20160620'
+        path: guanlecoja > gulp-fixtures2js > fixtures2js > minimatch
+    - guanlecoja > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:minimatch:20160620'
+        path: >-
+          guanlecoja > gulp > vinyl-fs > glob-watcher > gaze > globule >
+          minimatch
+    - guanlecoja > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:minimatch:20160620'
+        path: >-
+          guanlecoja > gulp > vinyl-fs > glob-watcher > gaze > globule > glob >
+          minimatch
+    - guanlecoja > gulp-bower-deps > bower > fstream-ignore > minimatch:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:minimatch:20160620'
+        path: guanlecoja > gulp-bower-deps > bower > fstream-ignore > minimatch
+    - guanlecoja > gulp-browserify > browserify > glob > minimatch:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:minimatch:20160620'
+        path: guanlecoja > gulp-browserify > browserify > glob > minimatch
+    - guanlecoja > gulp-bower-deps > bower > glob > minimatch:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:minimatch:20160620'
+        path: guanlecoja > gulp-bower-deps > bower > glob > minimatch
+  'npm:ms:20170412':
+    - guanlecoja > serve-static > send > ms:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:ms:20170412'
+        path: guanlecoja > serve-static > send > ms
+    - guanlecoja > gulp-livereload > mini-lr > body-parser > debug > ms:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:ms:20170412'
+        path: guanlecoja > gulp-livereload > mini-lr > body-parser > debug > ms
+    - guanlecoja > karma > socket.io > debug > ms:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:ms:20170412'
+        path: guanlecoja > karma > socket.io > debug > ms
+  'npm:qs:20140806-1':
+    - guanlecoja > gulp-bower-deps > bower > request > qs:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:qs:20140806-1'
+        path: guanlecoja > gulp-bower-deps > bower > request > qs
+    - guanlecoja > gulp-bower-deps > bower > insight > request > qs:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:qs:20140806-1'
+        path: guanlecoja > gulp-bower-deps > bower > insight > request > qs
+  'npm:request:20160119':
+    - guanlecoja > gulp-bower-deps > bower > bower-registry-client > request:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:request:20160119'
+        path: guanlecoja > gulp-bower-deps > bower > bower-registry-client > request
+    - guanlecoja > gulp-bower-deps > bower > insight > request:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:request:20160119'
+        path: guanlecoja > gulp-bower-deps > bower > insight > request
+    - guanlecoja > gulp-bower-deps > bower > request:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:request:20160119'
+        path: guanlecoja > gulp-bower-deps > bower > request
+    - guanlecoja > gulp-less > less > request:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:request:20160119'
+        path: guanlecoja > gulp-less > less > request
+  'npm:semver:20150403':
+    - guanlecoja > gulp-bower-deps > bower > semver:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:semver:20150403'
+        path: guanlecoja > gulp-bower-deps > bower > semver
+  'npm:shell-quote:20160621':
+    - guanlecoja > gulp-bower-deps > bower > shell-quote:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:shell-quote:20160621'
+        path: guanlecoja > gulp-bower-deps > bower > shell-quote
+  'npm:tar:20151103':
+    - guanlecoja > gulp-bower-deps > bower > tar:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:tar:20151103'
+        path: guanlecoja > gulp-bower-deps > bower > tar
+  'npm:tunnel-agent:20170305':
+    - guanlecoja > gulp-bower-deps > bower > request > tunnel-agent:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: guanlecoja > gulp-bower-deps > bower > request > tunnel-agent
+    - guanlecoja > gulp-less > less > request > tunnel-agent:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: guanlecoja > gulp-less > less > request > tunnel-agent
+    - guanlecoja > gulp-bower-deps > bower > bower-registry-client > request > tunnel-agent:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          guanlecoja > gulp-bower-deps > bower > bower-registry-client > request
+          > tunnel-agent
+  'npm:uglify-js:20151024':
+    - guanlecoja > gulp-bower-deps > bower > handlebars > uglify-js:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:uglify-js:20151024'
+        path: guanlecoja > gulp-bower-deps > bower > handlebars > uglify-js
+    - guanlecoja > gulp-browserify > browserify > umd > ruglify > uglify-js:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:uglify-js:20151024'
+        path: guanlecoja > gulp-browserify > browserify > umd > ruglify > uglify-js
+    - guanlecoja > gulp-browserify > browserify > umd > uglify-js:
+        patched: '2023-12-25T12:26:03.117Z'
+        id: 'npm:uglify-js:20151024'
+        path: guanlecoja > gulp-browserify > browserify > umd > uglify-js

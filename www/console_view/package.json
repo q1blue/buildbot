@@ -19,8 +19,8 @@
     },
     "dependencies": {
         "@uirouter/angularjs": "^1.0.15",
-        "angular": "^1.7.9",
-        "angular-animate": "^1.7.9",
+        "angular": "^1.8.2",
+        "angular-animate": "^1.8.2",
         "buildbot-data-js": "link:../data_module",
         "guanlecoja-ui": "link:../guanlecoja-ui"
     }

@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:shell-quote:20160621':
+    - guanlecoja > gulp-bower-deps > bower > shell-quote:
+        patched: '2023-07-28T03:38:54.578Z'
+        id: 'npm:shell-quote:20160621'
+        path: guanlecoja > gulp-bower-deps > bower > shell-quote

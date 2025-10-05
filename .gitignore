@@ -1,50 +1,27 @@
-# All files to globally ignore
-*.pyc
-*.pyo
-*$py.class
-# vim trash:
-.*.sw[a-z]
-*.patch
-*.orig
-*.rej
-*#
-*~
-MANIFEST
-_trial_temp*
-dist
-build/
-.build
-*.egg-info
-master/docs/buildbot.html
-master/docs/buildbot.info
-master/docs/buildbot.info-1
-master/docs/buildbot.info-2
-.stgit-edit.txt
-.project
-.pydevproject
-.vscode
-.settings
-*/build/
-master/docs/buildbot
-master/docs/version.texinfo
-master/docs/docs.tgz
-master/docs/latest
-twisted/plugins/dropin.cache
-.coverage
-coverage-html
-master/docs/tutorial/_build
-_build
-# tox
-.tox/
-# downloaded by setup_requires eggs
-*.egg
-.eggs/
-master/setuptools_trial*
-sandbox
-sandbox.*
-.idea/
-/.venv*/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# www
-*/node_modules/
-node_modules
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

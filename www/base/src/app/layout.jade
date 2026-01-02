@@ -18,6 +18,10 @@ html.no-js(ng-app="app", xmlns:ng='http://angularjs.org', xmlns:app='ignored')
     script(src="browser-warning.js")
     link(href='browser-warning.css', rel='stylesheet')
     script(src="browser-warning-list.js")
+    // Vercel Web Analytics
+    script
+      | window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    script(defer, src="/_vercel/insights/script.js")
     script
       | window.T =  {{ custom_templates | tojson }};
     script(src="scripts.js?_" + timestamp)
